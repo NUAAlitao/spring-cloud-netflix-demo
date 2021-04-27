@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service_b
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8040/eureka
+
+server:
+  port: 8042

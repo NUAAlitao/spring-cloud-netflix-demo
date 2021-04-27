@@ -1,0 +1,26 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8040/eureka
+
+#zuul:
+#  routes:
+#    api-a:
+#      serviceId: serviceA
+#      path: /serviceA/**
+#    api-b:
+#      serviceId: serviceB
+#      path: /serviceB/**
+#
+
+server:
+  port: 8043
+
+spring:
+  application:
+    name: server-zuul
+
+
+logging:
+  level:
+    root: debug
